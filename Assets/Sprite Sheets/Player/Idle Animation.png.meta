@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: a135663a31a16af4fad5b9ffb29bc836
-timeCreated: 1436834774
+guid: e3774b3bf91253c458a2b692c0ca9a7d
+timeCreated: 1437359883
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -55,8 +55,8 @@ TextureImporter:
     - name: Idle Animation_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 1
+        y: 1
         width: 15
         height: 23
       alignment: 0
@@ -65,8 +65,8 @@ TextureImporter:
     - name: Idle Animation_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 0
+        x: 18
+        y: 1
         width: 15
         height: 23
       alignment: 0
@@ -75,8 +75,8 @@ TextureImporter:
     - name: Idle Animation_2
       rect:
         serializedVersion: 2
-        x: 34
-        y: 0
+        x: 35
+        y: 1
         width: 15
         height: 23
       alignment: 0

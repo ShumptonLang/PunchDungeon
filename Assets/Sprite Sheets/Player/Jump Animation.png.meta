@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 9e891d699ed300f40be9f285f2237c0d
-timeCreated: 1436834814
+guid: d25f5dcdfc1c17d41b307950dde38bf2
+timeCreated: 1437869644
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -8,6 +8,7 @@ TextureImporter:
     21300002: Jump Animation_1
     21300004: Jump Animation_2
     21300006: Jump Animation_3
+    21300008: Jump Animation_4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -56,42 +57,52 @@ TextureImporter:
     - name: Jump Animation_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 15
+        x: 0
+        y: 0
+        width: 17
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Jump Animation_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 1
-        width: 15
+        x: 17
+        y: 0
+        width: 16
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Jump Animation_2
       rect:
         serializedVersion: 2
-        x: 50
+        x: 36
         y: 0
-        width: 15
-        height: 26
+        width: 16
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Jump Animation_3
       rect:
         serializedVersion: 2
-        x: 78
-        y: 1
-        width: 15
+        x: 53
+        y: 0
+        width: 17
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Jump Animation_4
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

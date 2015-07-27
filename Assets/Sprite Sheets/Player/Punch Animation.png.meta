@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: a924cf9d1850b4f4888652f0d5fb1db3
-timeCreated: 1436994366
+timeCreated: 1437343495
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -100,7 +100,7 @@ TextureImporter:
         serializedVersion: 2
         x: 101
         y: 0
-        width: 22
+        width: 20
         height: 23
       alignment: 0
       pivot: {x: .5, y: .5}
@@ -108,9 +108,9 @@ TextureImporter:
     - name: Punch Animation_5
       rect:
         serializedVersion: 2
-        x: 130
+        x: 128
         y: 0
-        width: 17
+        width: 19
         height: 23
       alignment: 0
       pivot: {x: .5, y: .5}

@@ -325,6 +325,7 @@ BoxCollider2D:
   m_Size: {x: .899999976, y: 1.39999998}
 --- !u!50 &1189078085
 Rigidbody2D:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -333,11 +334,11 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 2.5
-  m_FixedAngle: 1
   m_IsKinematic: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!114 &1189078086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -355,7 +356,7 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 1
-  downPull: 2.5
+  downPull: 1000
 --- !u!1 &1936637357
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,6 +430,7 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+  m_StereoMirrorMode: 0
 --- !u!4 &1936637362
 Transform:
   m_ObjectHideFlags: 0

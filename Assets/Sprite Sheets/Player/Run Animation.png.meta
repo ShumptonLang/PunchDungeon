@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 238e06fbadd15e343a95610ec43a4c16
-timeCreated: 1436834876
+guid: c6ac94a545502e849bce8978006c1b9e
+timeCreated: 1437859158
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -60,82 +60,82 @@ TextureImporter:
     - name: Run Animation_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4
+        x: 1
+        y: 0
         width: 18
-        height: 19
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run Animation_1
       rect:
         serializedVersion: 2
-        x: 27
-        y: 2
-        width: 15
-        height: 21
+        x: 22
+        y: 0
+        width: 18
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run Animation_2
       rect:
         serializedVersion: 2
-        x: 51
+        x: 44
         y: 0
-        width: 15
+        width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run Animation_3
       rect:
         serializedVersion: 2
-        x: 76
+        x: 67
         y: 0
-        width: 15
+        width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run Animation_4
       rect:
         serializedVersion: 2
-        x: 100
-        y: 3
-        width: 16
-        height: 20
+        x: 89
+        y: 0
+        width: 18
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run Animation_5
       rect:
         serializedVersion: 2
-        x: 128
-        y: 2
-        width: 15
-        height: 21
+        x: 109
+        y: 0
+        width: 18
+        height: 24
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run Animation_6
       rect:
         serializedVersion: 2
-        x: 156
+        x: 131
         y: 0
-        width: 15
+        width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Run Animation_7
       rect:
         serializedVersion: 2
-        x: 181
+        x: 153
         y: 0
-        width: 16
+        width: 18
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

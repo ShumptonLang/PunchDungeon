@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 6f6c58c003f4a8f4eb0161f5ddf71f99
-timeCreated: 1436834972
+guid: 4d631928713f24948a0aab1da7b465b9
+timeCreated: 1437358928
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -11,10 +11,11 @@ TextureImporter:
     21300008: Walk Animation_4
     21300010: Walk Animation_5
     21300012: Walk Animation_6
+    21300014: Walk Animation_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -59,72 +60,82 @@ TextureImporter:
     - name: Walk Animation_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 16
+        width: 17
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walk Animation_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 19
         y: 0
-        width: 16
+        width: 17
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walk Animation_2
       rect:
         serializedVersion: 2
-        x: 49
+        x: 37
         y: 0
-        width: 15
+        width: 17
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walk Animation_3
       rect:
         serializedVersion: 2
-        x: 74
+        x: 55
         y: 0
-        width: 15
+        width: 17
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walk Animation_4
       rect:
         serializedVersion: 2
-        x: 99
+        x: 73
         y: 0
-        width: 15
+        width: 17
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walk Animation_5
       rect:
         serializedVersion: 2
-        x: 127
+        x: 91
         y: 0
-        width: 15
+        width: 17
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: Walk Animation_6
       rect:
         serializedVersion: 2
-        x: 154
+        x: 109
         y: 0
-        width: 15
+        width: 17
         height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Walk Animation_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
