@@ -356,7 +356,7 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 1
-  downPull: 1000
+  downPull: 3
 --- !u!1 &1936637357
 GameObject:
   m_ObjectHideFlags: 0
