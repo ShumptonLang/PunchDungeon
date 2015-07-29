@@ -7,12 +7,14 @@ public class PlayerControl : MonoBehaviour {
 	private float playerY = 0;
 	private Animator playerAnimator;
 	private Rigidbody2D playerRigidbody;
-	private SpriteRenderer playerRenderer;//<-- I am adding a renderer so i can judge the sprites length / 2 so raycast will work properly
+	private SpriteRenderer playerRenderer;
 	private Transform playerTransform;
 	private float distToGround;
 	public float leeway = 0.1f;
 	public LayerMask mask = -1;
 	public float downPull = 3f;
+	private bool isJumpDown = false;
+	public float maxFallSpeed = 5f;
 
 	void Start () {
 		playerAnimator = GetComponent<Animator> ();
@@ -28,8 +30,15 @@ public class PlayerControl : MonoBehaviour {
 	void FixedUpdate () {
 
 		playerY = playerRigidbody.velocity.y;
-		playerRigidbody.velocity = new Vector2 (Input.GetAxis ("Horizontal") * speed,
-		                                       playerY);
+		Debug.Log (playerY);
+		playerRigidbody.velocity = new Vector2 (Input.GetAxis ("Horizontal") * speed, playerY);
+
+		if (Input.GetKeyUp (KeyCode.Space)) {
+			isJumpDown = false;
+		} else if(Input.GetKeyDown(KeyCode.Space)) {
+			isJumpDown = true;
+		}
+
 		playerAnimator.SetFloat ("Walking", Mathf.Abs (Input.GetAxis ("Horizontal")));
 		if (Input.GetAxis ("Horizontal") > 0) {
 			transform.localRotation = Quaternion.Euler (0, 0, 0);	
@@ -40,7 +49,7 @@ public class PlayerControl : MonoBehaviour {
 		if (Input.GetKey (KeyCode.Space) && IsGrounded () && playerY > -0.5f && playerY < 0.5f) {
 			playerRigidbody.AddForce (Vector2.up * jumpSpeed, ForceMode2D.Impulse);
 		} 
-		if (Input.GetKeyUp (KeyCode.Space) && IsGrounded() == false) {
+		if (isJumpDown == false && IsGrounded() == false && playerY > -maxFallSpeed) {
 			playerRigidbody.velocity -= new Vector2(0f, downPull);
 		}
 
