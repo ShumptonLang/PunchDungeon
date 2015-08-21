@@ -1,2 +1,4 @@
 # PunchDungeon
-Cane of the year
+Weebs stay away (lookin at you parker)
+Testing TextCommand
+
