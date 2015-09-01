@@ -41,7 +41,6 @@ public class PlayerControl : MonoBehaviour
 
 
         playerY = playerRigidbody.velocity.y;
-        Debug.Log(playerY);
         playerRigidbody.velocity = new Vector2(Input.GetAxis("Horizontal") * speed, playerY);
 
         if (Input.GetKeyUp(KeyCode.Space))
@@ -106,4 +105,11 @@ public class PlayerControl : MonoBehaviour
         Debug.DrawRay(playerTransform.position, Vector2.up * (distToGround + ceilingHeight));
         return Physics2D.Raycast(playerTransform.position, Vector3.up, distToGround + leeway, mask);
     }
+
+    void OnTriggerEnter(Collider other)
+    {
+        other.transform.localPosition.Set(0, 0, 0);
+    }
+
+
 }
